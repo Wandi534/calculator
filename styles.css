@@ -28,3 +28,59 @@ body {
     align-items: center;
     width: 300px;
 }
+
+/* Calculator screen */
+.screen {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+/* Button styling */
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+}
+
+/* Button active effect */
+.button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Specific button colors */
+#clear {
+    background-color: rgba(255, 100, 100, 0.6);
+}
+#divide, #multiply, #subtract, #add {
+    background-color: rgba(0, 255, 255, 0.6);
+}
+#equals {
+    background-color: rgba(0, 255, 255, 0.8);
+}
+
+/* Button for number layout */
+button {
+    font-size: 1.5em;
+}
